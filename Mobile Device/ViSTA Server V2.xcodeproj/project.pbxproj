@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AF813EC41DF8E5133D3AFED /* Pods_ViSTA_Server_V2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8564335FBB30CCF954C9B69 /* Pods_ViSTA_Server_V2.framework */; };
+		462491AB2B6BFB0400CEDF6F /* MLMultiArray+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462491AA2B6BFB0400CEDF6F /* MLMultiArray+Helpers.swift */; };
+		462491AD2B6BFB6500CEDF6F /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462491AC2B6BFB6500CEDF6F /* MLMultiArray+Image.swift */; };
+		462491AF2B6BFE9200CEDF6F /* CGImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462491AE2B6BFE9200CEDF6F /* CGImage+CVPixelBuffer.swift */; };
+		462491B12B6BFE9900CEDF6F /* CGImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462491B02B6BFE9900CEDF6F /* CGImage+RawBytes.swift */; };
+		464073D42B6F56A800F1D514 /* FCRN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 464073D32B6F56A800F1D514 /* FCRN.mlmodel */; };
+		4671F3972B5055C200EF4601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4671F3962B5055C200EF4601 /* AppDelegate.swift */; };
+		4671F3992B5055C200EF4601 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4671F3982B5055C200EF4601 /* SceneDelegate.swift */; };
+		4671F39B2B5055C200EF4601 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4671F39A2B5055C200EF4601 /* ViewController.swift */; };
+		4671F39E2B5055C200EF4601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4671F39C2B5055C200EF4601 /* Main.storyboard */; };
+		4671F3A02B5055C800EF4601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4671F39F2B5055C800EF4601 /* Assets.xcassets */; };
+		4671F3A32B5055C800EF4601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4671F3A12B5055C800EF4601 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		237C2912D67702CE567865CB /* Pods-ViSTA Server V2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViSTA Server V2.release.xcconfig"; path = "Target Support Files/Pods-ViSTA Server V2/Pods-ViSTA Server V2.release.xcconfig"; sourceTree = "<group>"; };
+		462491AA2B6BFB0400CEDF6F /* MLMultiArray+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Helpers.swift"; sourceTree = "<group>"; };
+		462491AC2B6BFB6500CEDF6F /* MLMultiArray+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Image.swift"; sourceTree = "<group>"; };
+		462491AE2B6BFE9200CEDF6F /* CGImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		462491B02B6BFE9900CEDF6F /* CGImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+RawBytes.swift"; sourceTree = "<group>"; };
+		464073D32B6F56A800F1D514 /* FCRN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FCRN.mlmodel; sourceTree = "<group>"; };
+		4671F3932B5055C200EF4601 /* ViSTA Server V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ViSTA Server V2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4671F3962B5055C200EF4601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4671F3982B5055C200EF4601 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4671F39A2B5055C200EF4601 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4671F39D2B5055C200EF4601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4671F39F2B5055C800EF4601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4671F3A22B5055C800EF4601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4671F3A42B5055C800EF4601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833E90722D84464E4FCC9482 /* Pods-ViSTA Server V2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViSTA Server V2.debug.xcconfig"; path = "Target Support Files/Pods-ViSTA Server V2/Pods-ViSTA Server V2.debug.xcconfig"; sourceTree = "<group>"; };
+		A8564335FBB30CCF954C9B69 /* Pods_ViSTA_Server_V2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViSTA_Server_V2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4671F3902B5055C200EF4601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF813EC41DF8E5133D3AFED /* Pods_ViSTA_Server_V2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2FA1CA544CBE766742A9B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				833E90722D84464E4FCC9482 /* Pods-ViSTA Server V2.debug.xcconfig */,
+				237C2912D67702CE567865CB /* Pods-ViSTA Server V2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		462491A52B6BF8B600CEDF6F /* mlmodel */ = {
+			isa = PBXGroup;
+			children = (
+				464073D32B6F56A800F1D514 /* FCRN.mlmodel */,
+			);
+			path = mlmodel;
+			sourceTree = "<group>";
+		};
+		462491B22B6C259200CEDF6F /* ml helpers */ = {
+			isa = PBXGroup;
+			children = (
+				462491AA2B6BFB0400CEDF6F /* MLMultiArray+Helpers.swift */,
+				462491AC2B6BFB6500CEDF6F /* MLMultiArray+Image.swift */,
+				462491B02B6BFE9900CEDF6F /* CGImage+RawBytes.swift */,
+				462491AE2B6BFE9200CEDF6F /* CGImage+CVPixelBuffer.swift */,
+			);
+			path = "ml helpers";
+			sourceTree = "<group>";
+		};
+		4671F38A2B5055C200EF4601 = {
+			isa = PBXGroup;
+			children = (
+				4671F3952B5055C200EF4601 /* ViSTA Server V2 */,
+				4671F3942B5055C200EF4601 /* Products */,
+				2A2FA1CA544CBE766742A9B8 /* Pods */,
+				E4A2FD9FA5A50E5AA38FE46D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4671F3942B5055C200EF4601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4671F3932B5055C200EF4601 /* ViSTA Server V2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4671F3952B5055C200EF4601 /* ViSTA Server V2 */ = {
+			isa = PBXGroup;
+			children = (
+				462491B22B6C259200CEDF6F /* ml helpers */,
+				462491A52B6BF8B600CEDF6F /* mlmodel */,
+				4671F3962B5055C200EF4601 /* AppDelegate.swift */,
+				4671F3982B5055C200EF4601 /* SceneDelegate.swift */,
+				4671F39A2B5055C200EF4601 /* ViewController.swift */,
+				4671F39C2B5055C200EF4601 /* Main.storyboard */,
+				4671F39F2B5055C800EF4601 /* Assets.xcassets */,
+				4671F3A12B5055C800EF4601 /* LaunchScreen.storyboard */,
+				4671F3A42B5055C800EF4601 /* Info.plist */,
+			);
+			path = "ViSTA Server V2";
+			sourceTree = "<group>";
+		};
+		E4A2FD9FA5A50E5AA38FE46D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8564335FBB30CCF954C9B69 /* Pods_ViSTA_Server_V2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4671F3922B5055C200EF4601 /* ViSTA Server V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4671F3A72B5055C800EF4601 /* Build configuration list for PBXNativeTarget "ViSTA Server V2" */;
+			buildPhases = (
+				96DDBB331D058F4349ED5DB9 /* [CP] Check Pods Manifest.lock */,
+				4671F38F2B5055C200EF4601 /* Sources */,
+				4671F3902B5055C200EF4601 /* Frameworks */,
+				4671F3912B5055C200EF4601 /* Resources */,
+				8672D5132F0974D4828C90CB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ViSTA Server V2";
+			productName = "ViSTA Server V2";
+			productReference = 4671F3932B5055C200EF4601 /* ViSTA Server V2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4671F38B2B5055C200EF4601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4671F3922B5055C200EF4601 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 4671F38E2B5055C200EF4601 /* Build configuration list for PBXProject "ViSTA Server V2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4671F38A2B5055C200EF4601;
+			productRefGroup = 4671F3942B5055C200EF4601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4671F3922B5055C200EF4601 /* ViSTA Server V2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4671F3912B5055C200EF4601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4671F3A32B5055C800EF4601 /* LaunchScreen.storyboard in Resources */,
+				4671F3A02B5055C800EF4601 /* Assets.xcassets in Resources */,
+				4671F39E2B5055C200EF4601 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8672D5132F0974D4828C90CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViSTA Server V2/Pods-ViSTA Server V2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViSTA Server V2/Pods-ViSTA Server V2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViSTA Server V2/Pods-ViSTA Server V2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96DDBB331D058F4349ED5DB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViSTA Server V2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4671F38F2B5055C200EF4601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462491AF2B6BFE9200CEDF6F /* CGImage+CVPixelBuffer.swift in Sources */,
+				464073D42B6F56A800F1D514 /* FCRN.mlmodel in Sources */,
+				462491AB2B6BFB0400CEDF6F /* MLMultiArray+Helpers.swift in Sources */,
+				462491B12B6BFE9900CEDF6F /* CGImage+RawBytes.swift in Sources */,
+				462491AD2B6BFB6500CEDF6F /* MLMultiArray+Image.swift in Sources */,
+				4671F39B2B5055C200EF4601 /* ViewController.swift in Sources */,
+				4671F3972B5055C200EF4601 /* AppDelegate.swift in Sources */,
+				4671F3992B5055C200EF4601 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4671F39C2B5055C200EF4601 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4671F39D2B5055C200EF4601 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4671F3A12B5055C800EF4601 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4671F3A22B5055C800EF4601 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4671F3A52B5055C800EF4601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Debug;
+		};
+		4671F3A62B5055C800EF4601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4671F3A82B5055C800EF4601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833E90722D84464E4FCC9482 /* Pods-ViSTA Server V2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6H59U5BAH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ViSTA Server V2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ViSTA;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "It is required for the app";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "comRussellTabata.ViSTA-Server-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4671F3A92B5055C800EF4601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237C2912D67702CE567865CB /* Pods-ViSTA Server V2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6H59U5BAH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ViSTA Server V2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ViSTA;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "It is required for the app";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "comRussellTabata.ViSTA-Server-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4671F38E2B5055C200EF4601 /* Build configuration list for PBXProject "ViSTA Server V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4671F3A52B5055C800EF4601 /* Debug */,
+				4671F3A62B5055C800EF4601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4671F3A72B5055C800EF4601 /* Build configuration list for PBXNativeTarget "ViSTA Server V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4671F3A82B5055C800EF4601 /* Debug */,
+				4671F3A92B5055C800EF4601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4671F38B2B5055C200EF4601 /* Project object */;
+}
