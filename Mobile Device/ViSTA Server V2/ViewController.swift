@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         print(locationText ?? "Not yet")
         
         // Example usage:
-        let apiKey = "AIzaSyC1SQEvJruFCtYorF6kv2pX4ihpPJjPJxw"
+        let apiKey = "KEY HERE"
         let directionsAPI = GoogleMapsDirectionsAPI(apiKey: apiKey)
         
         // Access LocationServer instance from the AppDelegate
